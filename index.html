@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Yeison Escobar | Desarrollador de Software en formación</title>
+
+    <meta
+      name="description"
+      content="Hoja de vida profesional de Yeison Eduardo Escobar, estudiante de Análisis y Desarrollo de Software en Medellín. Especialista en HTML, CSS y lógica de programación."
+    />
+
+    <link rel="shortcut icon" href="assets/img/logosena.png" type="image/x-icon" />
+
+    <meta name="author" content="Yeison Escobar" />
+    <meta
+      name="keywords"
+      content="TALLER, taller, Taller, Portafolio, Desarrollador"
+    />
+
+    <meta name="theme-color" content="#000000" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <style>
+      .carousel-item img {
+        height: 500px;
+        object-fit: cover;
+      }
+      .feature-icon {
+        width: 4rem;
+        height: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top shadow">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">
+            <i class="bi bi-terminal-mix me-2 text-primary"></i
+            ><span class="text-white">Yeison</span
+            ><span class="text-primary">.Dev</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#"
+                  ><i class="bi bi-house-door me-1"></i>Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#music-section">Inspiración</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="bi bi-folder-fill me-1"></i>Proyectos
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark shadow">
+                  <li>
+                    <a class="dropdown-item" href="app/github.html"
+                      ><i class="bi bi-github me-2"></i>GitHub</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="app/tables.html"
+                      ><i class="bi bi-table me-2"></i>Tablas</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="app/forms.html"
+                      ><i class="bi bi-file-earmark-text me-2"></i
+                      >Formularios</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#dashboard">Panel Musical</a>
+              </li>
+            </ul>
+
+            <div class="d-flex">
+              <a
+                href="app/forms.html"
+                class="btn btn-outline-primary btn-sm px-3 fw-semibold"
+                ><i class="bi bi-box-arrow-in-right me-1"></i>Acceder</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main style="margin-top: 56px">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="0"
+            class="active"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#demo"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="Assets/img/1.jpg"
+              alt="Desarrollo Web"
+              class="d-block w-100"
+            />
+            <div
+              class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"
+            >
+              <h5>Código Limpio y Estructurado</h5>
+              <p>Diseño enfocado en la semántica y estándares modernos.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Assets/img/2.jpg"
+              alt="Interfaces Adaptables"
+              class="d-block w-100"
+            />
+            <div
+              class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"
+            >
+              <h5>Interfaces Responsivas</h5>
+              <p>
+                Adaptación perfecta a cualquier tipo de pantalla y dispositivo.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="Assets/img/4.jpg"
+              alt="Lógica Eficiente"
+              class="d-block w-100"
+            />
+            <div
+              class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"
+            >
+              <h5>Lógica de Programación</h5>
+              <p>
+                Resolución de problemas con arquitecturas de software
+                eficientes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <div
+        class="px-4 py-5 my-5 text-center bg-light rounded shadow-sm container"
+      >
+        <i class="bi bi-code-square display-1 text-primary mb-3"></i>
+        <h1 class="display-5 fw-bold text-body-emphasis">
+          ¡Hola! Soy Yeison Escobar
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Estudiante de Análisis y Desarrollo de Software. Apasionado por la
+            maquetación web, la optimización de código y la creación de
+            soluciones interactivas.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#album" class="btn btn-primary btn-lg px-4 gap-3"
+              >Ver Portafolio</a
+            >
+            <a href="#dashboard" class="btn btn-outline-secondary btn-lg px-4"
+              >Ir al Panel Musical</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="container px-4 py-5" id="features">
+        <h2 class="pb-2 border-bottom fw-bold">
+          <i class="bi bi-star-fill text-warning me-2"></i>Habilidades Clave
+        </h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded-3"
+            >
+              <i class="bi bi-layers-half"></i>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Maquetación Frontend</h3>
+            <p>
+              Especialización en estructuración sólida mediante HTML5, diseño
+              fluido con CSS Grid/Flexbox y agilidad de desarrollo usando
+              Bootstrap.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded-3"
+            >
+              <i class="bi bi-cpu-fill"></i>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Lógica de Programación</h3>
+            <p>
+              Enfoque riguroso en algoritmos limpios, legibilidad del código y
+              bases fundamentales de desarrollo de software escalable.
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded-3"
+            >
+              <i class="bi bi-git"></i>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Control de Versiones</h3>
+            <p>
+              Gestión y administración segura de repositorios locales y remotos
+              a través de Git, asegurando un flujo de trabajo organizado.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5" id="music-section">
+        <div
+          class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-dark text-white"
+        >
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <span class="badge bg-danger mb-2"
+              ><i class="bi bi-headphones me-1"></i> Lo que más escucho</span
+            >
+            <h1 class="display-4 fw-bold lh-1 text-white">
+              Inspiración Sonora & Techno
+            </h1>
+            <p class="lead">
+              La música electrónica es el motor de mi concentración. Mis
+              jornadas de código fluyen al ritmo de subgéneros del Techno, donde
+              la estructura, la precisión y los patrones repetitivos se alinean
+              perfectamente con la lógica del desarrollo de software.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-4 mb-lg-5">
+              <span
+                class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill"
+              >
+                <i class="bi bi-music-note-beamed mx-1"></i>Peak Time Techno
+              </span>
+              <span
+                class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill"
+              >
+                <i class="bi bi-music-note-beamed mx-1"></i>Raw / Deep Techno
+              </span>
+              <span
+                class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill"
+              >
+                <i class="bi bi-music-note-beamed mx-1"></i>Hi-Fi Audio (FLAC)
+              </span>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg d-flex justify-content-center align-items-center bg-secondary bg-opacity-10 rounded"
+            style="min-height: 300px"
+          >
+            <div class="text-center p-5">
+              <i class="bi bi-soundwave display-1 text-danger mb-3"></i>
+              <h4 class="fw-bold">Sound & Logic</h4>
+              <p class="small text-muted">Concentración en alta fidelidad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="album py-5 bg-body-tertiary" id="album">
+        <div class="container">
+          <h2 class="pb-2 border-bottom fw-bold mb-4">
+            <i class="bi bi-folder-fill text-primary me-2"></i>Galería de
+            Proyectos
+          </h2>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <div class="bg-secondary text-white text-center py-5">
+                  <i class="bi bi-file-earmark-code display-4"></i>
+                </div>
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title fw-bold">Taller 1: CV Personal</h5>
+                    <p class="card-text text-muted">
+                      Estructuración y maquetación inicial de una hoja de vida
+                      interactiva aplicando estilos semánticos.
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Clonar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary fw-semibold"
+                      >HTML / CSS</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100">
+                <div class="bg-primary text-white text-center py-5">
+                  <i class="bi bi-grid-3x3-gap display-4"></i>
+                </div>
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title fw-bold">Taller 2: CSS Grid</h5>
+                    <p class="card-text text-muted">
+                      Maquetación avanzada experimentando con rejillas
+                      asimétricas y propiedades responsivas complejas.
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-primary"
+                      >
+                        Ver
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Clonar
+                      </button>
+                    </div>
+                    <small class="text-body-secondary fw-semibold"
+                      >CSS Grid</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm h-100 border-primary">
+                <div class="bg-dark text-primary text-center py-5">
+                  <i class="bi bi-disc-fill display-4"></i>
+                </div>
+                <div
+                  class="card-body d-flex flex-column justify-content-between"
+                >
+                  <div>
+                    <h5 class="card-title fw-bold text-primary">
+                      Tracks DJ Manager
+                    </h5>
+                    <p class="card-text text-muted">
+                      Sistema de base de datos local diseñado para clasificar
+                      colecciones de audio, organizando carpetas por subgéneros
+                      musicales para sets en vivo.
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center mt-3"
+                  >
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-primary">
+                        Ver App
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Código
+                      </button>
+                    </div>
+                    <small class="text-primary fw-semibold"
+                      >Database / JS</small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="container my-5 py-4 border rounded shadow-sm bg-white"
+        id="dashboard"
+      >
+        <h2 class="pb-2 border-bottom fw-bold mb-4">
+          <i class="bi bi-sliders text-danger me-2"></i>Panel de Control Musical
+        </h2>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="list-group">
+              <a
+                href="#dashboard"
+                class="list-group-item list-group-item-action active bg-danger border-danger"
+                ><i class="bi bi-music-note-beamed me-2"></i>Mis Géneros</a
+              >
+              <a
+                href="#dashboard"
+                class="list-group-item list-group-item-action"
+                ><i class="bi bi-people-fill me-2"></i>DJs Favoritos</a
+              >
+              <a
+                href="#dashboard"
+                class="list-group-item list-group-item-action"
+                ><i class="bi bi-speedometer2 me-2"></i>BPM Promedio</a
+              >
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row g-3 mb-4">
+              <div class="col-md-4">
+                <div class="card text-bg-dark h-100">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h6
+                      class="card-title text-white-50 text-uppercase small m-0"
+                    >
+                      BPM Promedio
+                    </h6>
+                    <p class="card-text display-6 fw-bold m-0">135 BPM</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-bg-primary h-100">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h6
+                      class="card-title text-white-50 text-uppercase small m-0"
+                    >
+                      Géneros Activos
+                    </h6>
+                    <p class="card-text display-6 fw-bold m-0">3 Estilos</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card text-bg-success h-100">
+                  <div
+                    class="card-body d-flex flex-column justify-content-between"
+                  >
+                    <h6
+                      class="card-title text-white-50 text-uppercase small m-0"
+                    >
+                      DJs Preferidos
+                    </h6>
+                    <p class="card-text display-6 fw-bold m-0">5 Artistas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="card h-100">
+                  <div class="card-header bg-light fw-semibold">
+                    <i class="bi bi-tags-fill text-primary me-2"></i>Géneros
+                    Escuchados
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      Peak Time Techno
+                      <span class="badge bg-primary rounded-pill"
+                        >Alta Rotación</span
+                      >
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      Raw / Deep Techno
+                      <span class="badge bg-primary rounded-pill"
+                        >Concentración</span
+                      >
+                    </li>
+                    <li
+                      class="list-group-item d-flex justify-content-between align-items-center"
+                    >
+                      Hard Techno
+                      <span class="badge bg-secondary rounded-pill"
+                        >Sesiones en Vivo</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card h-100">
+                  <div class="card-header bg-light fw-semibold">
+                    <i class="bi bi-person-heart text-success me-2"></i>DJs
+                    Favoritos
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Charlotte de Witte</li>
+                    <li class="list-group-item">Amelie Lens</li>
+                    <li class="list-group-item">Richie Hawtin</li>
+                    <li class="list-group-item">Adam Beyer</li>
+                    <li class="list-group-item">Boris Brejcha</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer
+      class="bg-dark text-secondary px-4 py-5 text-center mt-5 border-top border-secondary border-opacity-25"
+    >
+      <div class="py-4">
+        <h3 class="text-white fw-bold mb-3">Yeison Eduardo Escobar Preciado</h3>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-6 mb-4 text-muted">
+            Estudiante de Análisis y Desarrollo de Software • Medellín, Colombia
+          </p>
+          <div class="d-flex justify-content-center gap-4 fs-4 mb-4">
+            <a href="#" class="text-secondary link-primary"
+              ><i class="bi bi-github"></i
+            ></a>
+            <a href="#" class="text-secondary link-primary"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="#" class="text-secondary link-primary"
+              ><i class="bi bi-envelope-at-fill"></i
+            ></a>
+          </div>
+          <p class="mb-0 small text-uppercase tracking-wider text-muted">
+            &copy; 2026 Portafolio Profesional. Todos los derechos reservados.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

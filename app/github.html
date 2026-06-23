@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Yeison Escobar | Guía de GitHub</title>
+
+    <meta name="description" content="Yeison Eduardo Escobar, estudiante de Análisis y Desarrollo de Software en Medellín. Especialista en HTML, CSS y lógica de programación." />
+    <link rel="shortcut icon" href="../assets/img/logosena.png" type="image/x-icon" />
+
+    <meta name="author" content="Yeison Escobar" />
+    <meta name="keywords" content="TALLER, taller, Taller, Portafolio, Desarrollador, GitHub, Terminal" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <style>
+        body {
+            padding-top: 56px;
+            background-color: #f8f9fa; 
+            color: #212529;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* Limita el ancho máximo para mantener una lectura cómoda */
+        .main-content-wrapper {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+
+        /* Contenedores de los pasos */
+        .step-container {
+            background-color: #1e1e1e; 
+            color: #f8f9fa; 
+            border-radius: 8px;
+            padding: 1.75rem 1.5rem; 
+            margin-bottom: 1.25rem; 
+            text-align: left; 
+            box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .step-container:hover {
+            transform: translateY(-3px);
+            border-color: #0d6efd; 
+        }
+
+        .step-title {
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            font-size: 1.35rem; 
+            color: #f8f9fa;
+        }
+
+        .step-description {
+            font-size: 0.95rem; 
+            margin-bottom: 1.25rem;
+            color: #b3b3b3; 
+        }
+
+        /* Bloques de terminal optimizados solo para comandos */
+        .terminal-block {
+            background-color: #111; 
+            color: #00ffff; /* Los comandos se muestran en este tono cian brillante */
+            font-family: 'Courier New', Courier, monospace; 
+            font-size: 0.95rem; 
+            border: 1.5px solid #00ffff; 
+            box-shadow: 0 0 8px rgba(0, 255, 255, 0.15); 
+            border-radius: 6px;
+            padding: 1.25rem; 
+            text-align: left; 
+            position: relative; 
+        }
+
+        .git-cmd {
+            color: #00ffff; 
+            font-weight: bold;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+        
+        .git-cmd:last-child {
+            margin-bottom: 0;
+        }
+
+        .terminal-icon {
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            font-size: 1.1rem;
+            color: rgba(0, 255, 255, 0.25);
+        }
+
+        .neon-icon {
+            color: #0d6efd; 
+            text-shadow: 0 0 4px rgba(13, 110, 253, 0.4);
+        }
+
+        .check-icon {
+            color: #00ff00; 
+            text-shadow: 0 0 4px rgba(0, 255, 0, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top shadow">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="../index.html">
+                    <i class="bi bi-terminal-mix me-2 text-primary"></i><span class="text-white">Yeison</span><span class="text-primary">.Dev</span>
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html"><i class="bi bi-house-door me-1"></i>Inicio</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-folder-fill me-1"></i>Proyectos
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark shadow">
+                                <li><a class="dropdown-item active bg-primary" href="github.html"><i class="bi bi-github me-2"></i>GitHub</a></li>
+                                <li><a class="dropdown-item" href="tables.html"><i class="bi bi-table me-2"></i>Tablas</a></li>
+                                <li><a class="dropdown-item" href="forms.html"><i class="bi bi-file-earmark-text me-2"></i>Formularios</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex">
+                        <a href="../app/forms.html" class="btn btn-outline-primary btn-sm px-3 fw-semibold"><i class="bi bi-box-arrow-in-right me-1"></i>Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-4 pt-3">
+        <div class="main-content-wrapper">
+            
+            <div class="text-center mb-4">
+                <i class="bi bi-github fs-1 text-dark mb-2"></i>
+                <h1 class="fw-bold h2">Guía de Configuración Local y Remota</h1>
+                <p class="text-muted small">Sigue estos pasos secuenciales ejecutando únicamente los siguientes comandos en tu consola.</p>
+            </div>
+
+            <div class="step-container">
+                <h2 class="step-title"><i class="bi bi-1-circle-fill neon-icon me-2"></i>Paso 1: Verificar la instalación de Git</h2>
+                <p class="step-description">
+                    Comprueba que Git está instalado correctamente en tu equipo ejecutando el comando correspondiente en la terminal o CMD.
+                </p>
+                <div class="terminal-block">
+                    <i class="bi bi-git terminal-icon"></i>
+                    <code class="git-cmd">git --version</code>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <h2 class="step-title"><i class="bi bi-2-circle-fill neon-icon me-2"></i>Paso 2: Configurar tu identidad</h2>
+                <p class="step-description">
+                    Establece tu nombre de usuario y correo electrónico global para que Git pueda identificar quién realiza los commits en el historial.
+                </p>
+                <div class="terminal-block">
+                    <i class="bi bi-person-lines-fill terminal-icon"></i>
+                    <code class="git-cmd">git config --global user.name "TuNombre"</code>
+                    <code class="git-cmd">git config --global user.email "tu@email.com"</code>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <h2 class="step-title"><i class="bi bi-3-circle-fill neon-icon me-2"></i>Paso 3: Iniciar un proyecto local</h2>
+                <p class="step-description">
+                    Crea o abre una carpeta de proyecto y conviértela en un repositorio Git local mediante la consola para comenzar el control de versiones.
+                </p>
+                <div class="terminal-block">
+                    <i class="bi bi-folder-fill terminal-icon"></i>
+                    <code class="git-cmd">cd mi-proyecto</code>
+                    <code class="git-cmd">git init</code>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <h2 class="step-title"><i class="bi bi-4-circle-fill neon-icon me-2"></i>Paso 4: Agregar archivos y realizar el primer commit</h2>
+                <p class="step-description">
+                    Añade los archivos del proyecto al área de preparación (Staging Area) y guarda una primera versión estable con un mensaje descriptivo.
+                </p>
+                <div class="terminal-block">
+                    <i class="bi bi-file-earmark-diff terminal-icon"></i>
+                    <code class="git-cmd">git add .</code>
+                    <code class="git-cmd">git commit -m "Mi primer commit"</code>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <h2 class="step-title"><i class="bi bi-5-circle-fill neon-icon me-2"></i>Paso 5: Crear un repositorio en GitHub</h2>
+                <p class="step-description mb-3">
+                    Accede a tu cuenta de GitHub desde el navegador y crea un nuevo repositorio vacío donde se almacenará el proyecto de forma remota.
+                </p>
+                <div class="text-start bg-dark bg-opacity-75 p-3 rounded border border-secondary d-flex align-items-center gap-3">
+                    <i class="bi bi-globe fs-3 text-info"></i>
+                    <div>
+                        <p class="text-white m-0 small">Accede a: <a href="https://github.com/new" target="_blank" class="link-info fw-semibold">github.com/new</a></p>
+                        <p class="m-0 text-muted extra-small" style="font-size: 0.85rem;">Asigna el nombre a tu repositorio y presiona "Create repository".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-container">
+                <h2 class="step-title"><i class="bi bi-6-circle-fill neon-icon me-2"></i>Paso 6: Conectar el proyecto local con GitHub</h2>
+                <p class="step-description">
+                    Vincula el repositorio local con la URL del repositorio remoto en GitHub y envía tus ramas principales para sincronizar ambos entornos.
+                </p>
+                <div class="terminal-block">
+                    <i class="bi bi-cloud-arrow-up terminal-icon"></i>
+                    <code class="git-cmd">git remote add origin https://github.com/TuUsuario/repo.git</code>
+                    <code class="git-cmd">git branch -M main</code>
+                    <code class="git-cmd">git push -u origin main</code>
+                </div>
+            </div>
+
+            <div class="step-container border-success" style="border-left: 4px solid #00ff00 !important;">
+                <h2 class="step-title text-white"><i class="bi bi-check-circle-fill check-icon me-2"></i>Paso 7: Proyecto publicado</h2>
+                <p class="step-description m-0">
+                    El repositorio queda correctamente conectado con GitHub, seguro en la nube y listo para seguir guardando cambios o colaborar en equipo.
+                </p>
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="bg-dark text-secondary px-4 py-4 text-center mt-5 border-top border-secondary border-opacity-25">
+        <div class="py-3">
+            <h4 class="text-white fw-bold mb-2 fs-5">Yeison Eduardo Escobar Preciado</h4>
+            <div class="col-lg-6 mx-auto">
+                <p class="small mb-3 text-muted">Estudiante de Análisis y Desarrollo de Software • Medellín, Colombia</p>
+                <div class="d-flex justify-content-center gap-3 fs-5 mb-3">
+                    <a href="#" class="text-secondary link-primary"><i class="bi bi-github"></i></a>
+                    <a href="#" class="text-secondary link-primary"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-secondary link-primary"><i class="bi bi-envelope-at-fill"></i></a>
+                </div>
+                <p class="mb-0 extra-small text-uppercase tracking-wider text-muted" style="font-size: 0.75rem;">&copy; 2026 Portafolio Profesional. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
