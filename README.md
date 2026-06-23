@@ -1,26 +1,41 @@
-# Portafolio Profesional & Módulos Web Interactivos
+# Yeison.Dev — Portafolio Profesional & Landing Page
 
-Este repositorio contiene mi portafolio web profesional como desarrollador de software en formación, diseñado con un enfoque modular, maquetación responsiva avanzada y componentes dinámicos de interfaz de usuario.
+¡Bienvenido a mi repositorio! Este proyecto consiste en un sitio web completo e interactivo desarrollado como parte de mi formación en el programa de **Análisis y Desarrollo de Software** del **SENA** (Regional Antioquia) en Medellín, Colombia. 
 
-## 📁 Estructura del Proyecto
+La plataforma funciona como mi portafolio profesional de desarrollo frontend, consolidando interfaces limpias, maquetación responsiva moderna y utilidades dinámicas personalizadas.
 
-El proyecto está compuesto por los siguientes submódulos funcionales:
+---
 
-* **`index.html` (Inicio):** Página principal que funciona como hoja de vida interactiva. Incluye una sección Hero, galería técnica con acceso directo al **Tracks DJ Manager** y un panel de inspiración musical.
-* **`github.html` (Guía Épica de GitHub):** Una guía paso a paso, secuencial y compacta, diseñada con bloques de terminal oscuros de alto contraste y estética neón para facilitar el aprendizaje de comandos esenciales de Git.
-* **`tables.html` & `forms.html`:** Vistas de práctica estructural dedicadas al procesamiento y visualización limpia de datos mediante componentes nativos y clases de Bootstrap.
+## 🚀 Características Principales
 
-## 🛠️ Tecnologías Utilizadas
+El proyecto está estructurado de manera modular y cuenta con las siguientes secciones clave:
 
-* **HTML5:** Estructuración semántica y optimización SEO básica.
-* **CSS3:** Estilos personalizados, efectos hover de transición suave y paletas neón de alta fidelidad.
-* **Bootstrap v5.3.3:** Framework principal utilizado para asegurar un diseño móvil y rejillas completamente fluidas (`Grid` y `Flexbox`).
-* **Bootstrap Icons v1.11.3:** Librería de vectores gráficos integrada para potenciar la navegación visual.
+* **Página Principal (`index.html`):** Presentación profesional (Hero section), galería de habilidades técnicas y carrusel multimedia optimizado con Bootstrap.
+* **Panel Musical Interactivo:** Módulo enfocado en mi librería de música electrónica (géneros como Hardtechno, Industrial, Hardgroove y Hypnotic), diseñado para la visualización fluida de colecciones y sets de DJ.
+* **Galería de Proyectos (Tracks DJ Manager):** Una sección dedicada a administrar y organizar pistas y proyectos, reemplazando antiguos entornos de pruebas por una galería técnica avanzada.
+* **Secciones Técnicas Especializadas:**
+    * **Guía de GitHub (`github.html`):** Una bitácora de aprendizaje secuencial que simula bloques de terminal oscuros y neón para guiar a usuarios en la configuración local y remota de Git.
+    * **Gestión de Tablas (`tables.html`):** Estructuración de datos con un diseño corporativo y estilizado mediante componentes de Bootstrap.
+    * **Formularios de Acceso y Contacto (`forms.html`):** Captura de datos con validaciones integradas y estilos UX/UI adaptados a la interfaz general.
 
-## 🚀 Instalación y Visualización Local
+---
 
-Para desplegar este proyecto localmente en tu máquina, sigue estos pasos:
+## 🛠️ Tecnologías y Herramientas Utilizadas
 
-1. Clona este repositorio en tu equipo:
+Para garantizar un código limpio, semántico y escalable, se implementaron los siguientes estándares:
+
+* **HTML5:** Estructura semántica, optimización de etiquetas SEO y metadatos adaptados a dispositivos móviles.
+* **CSS3 Avanzado:** Uso de variables globales, Flexbox, CSS Grid y efectos visuales de sombreado neón para bloques especiales (como la consola de comandos).
+* **Bootstrap v5.3:** Maquetación ágil basada en contenedores fluidos, breakpoints responsivos, componentes de navegación (`navbar`) y utilidades de espaciado.
+* **Bootstrap Icons:** Paquete de iconografía vectorial para aportar dinamismo visual a la navegación e indicadores de pasos.
+* **Git & GitHub:** Arquitectura de control de versiones con flujos de trabajo limpios directamente desde la terminal.
+
+---
+
+## 📦 Instalación y Configuración Local
+
+Si deseas explorar el código, clonar el repositorio o ejecutar la plataforma en tu máquina local, sigue estos comandos en tu consola:
+
+1. **Clonar el repositorio remoto:**
    ```bash
-   git clone [https://github.com/TuUsuario/TuRepositorio.git](https://github.com/TuUsuario/TuRepositorio.git)
+   git clone [https://github.com/TuUsuario/tu-repositorio.git](https://github.com/TuUsuario/tu-repositorio.git)
