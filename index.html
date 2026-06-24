@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es-CO">
   <head>
     <meta charset="UTF-8" />
@@ -14,10 +14,7 @@
     <link rel="shortcut icon" href="assets/img/logosena.png" type="image/x-icon" />
 
     <meta name="author" content="Yeison Escobar" />
-    <meta
-      name="keywords"
-      content="TALLER, taller, Taller, Portafolio, Desarrollador"
-    />
+    <meta name="keywords" content="TALLER, taller, Taller, Portafolio, Desarrollador" />
 
     <meta name="theme-color" content="#000000" />
     <meta name="MobileOptimized" content="width" />
@@ -50,9 +47,8 @@
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top shadow">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold" href="#">
-            <i class="bi bi-terminal-mix me-2 text-primary"></i
-            ><span class="text-white">Yeison</span
-            ><span class="text-primary">.Dev</span>
+            <i class="bi bi-terminal-mix me-2 text-primary"></i>
+            <span class="text-white">Yeison</span><span class="text-primary">.Dev</span>
           </a>
 
           <button
@@ -60,6 +56,7 @@
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapsibleNavbar"
+            aria-label="Cambiar navegación"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -67,9 +64,7 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav me-auto mb-2 mb-sm-0">
               <li class="nav-item">
-                <a class="nav-link active" href="#"
-                  ><i class="bi bi-house-door me-1"></i>Inicio</a
-                >
+                <a class="nav-link active" href="#"><i class="bi bi-house-door me-1"></i>Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#features">Habilidades</a>
@@ -101,8 +96,7 @@
                   </li>
                   <li>
                     <a class="dropdown-item" href="app/forms.html"
-                      ><i class="bi bi-file-earmark-text me-2"></i
-                      >Formularios</a
+                      ><i class="bi bi-file-earmark-text me-2"></i>Formularios</a
                     >
                   </li>
                 </ul>
@@ -133,16 +127,20 @@
             data-bs-target="#demo"
             data-bs-slide-to="0"
             class="active"
+            aria-current="true"
+            aria-label="Diapositiva 1"
           ></button>
           <button
             type="button"
             data-bs-target="#demo"
             data-bs-slide-to="1"
+            aria-label="Diapositiva 2"
           ></button>
           <button
             type="button"
             data-bs-target="#demo"
             data-bs-slide-to="2"
+            aria-label="Diapositiva 3"
           ></button>
         </div>
 
@@ -152,6 +150,8 @@
               src="assets/img/1.webp"
               alt="Desarrollo Web"
               class="d-block w-100"
+              width="1200"
+              height="500"
             />
             <div
               class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"
@@ -165,6 +165,9 @@
               src="assets/img/2.webp"
               alt="Interfaces Adaptables"
               class="d-block w-100"
+              width="1200"
+              height="500"
+              loading="lazy"
             />
             <div
               class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"
@@ -180,26 +183,28 @@
               src="assets/img/4.webp"
               alt="Lógica Eficiente"
               class="d-block w-100"
+              width="1200"
+              height="500"
+              loading="lazy"
             />
             <div
               class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded"
             >
               <h5>Lógica de Programación</h5>
               <p>
-                Resolución de problemas con arquitecturas de software
-                eficientes.
+                Resolución de problemas con arquitecturas de software eficientes.
               </p>
             </div>
-          </div>git 
+          </div>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" aria-label="Anterior diapositiva">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-</button>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
 
-<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" aria-label="Siguiente diapositiva">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-</button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" aria-label="Siguiente diapositiva">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
       </div>
 
       <div
@@ -322,8 +327,7 @@
       <div class="album py-5 bg-body-tertiary" id="album">
         <div class="container">
           <h2 class="pb-2 border-bottom fw-bold mb-4">
-            <i class="bi bi-folder-fill text-primary me-2"></i>Galería de
-            Proyectos
+            <i class="bi bi-folder-fill text-primary me-2"></i>Galería de Proyectos
           </h2>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
@@ -524,8 +528,7 @@
               <div class="col-md-6">
                 <div class="card h-100">
                   <div class="card-header bg-light fw-semibold">
-                    <i class="bi bi-tags-fill text-primary me-2"></i>Géneros
-                    Escuchados
+                    <i class="bi bi-tags-fill text-primary me-2"></i>Géneros Escuchados
                   </div>
                   <ul class="list-group list-group-flush">
                     <li
@@ -558,8 +561,7 @@
               <div class="col-md-6">
                 <div class="card h-100">
                   <div class="card-header bg-light fw-semibold">
-                    <i class="bi bi-person-heart text-success me-2"></i>DJs
-                    Favoritos
+                    <i class="bi bi-person-heart text-success me-2"></i>DJs Favoritos
                   </div>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">Charlotte de Witte</li>
@@ -586,15 +588,15 @@
             Estudiante de Análisis y Desarrollo de Software • Medellín, Colombia
           </p>
           <div class="d-flex justify-content-center gap-4 fs-4 mb-4">
-            <a href="#" class="text-secondary link-primary"
-              ><i class="bi bi-github"></i
-            ></a>
-            <a href="#" class="text-secondary link-primary"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-            <a href="#" class="text-secondary link-primary"
-              ><i class="bi bi-envelope-at-fill"></i
-            ></a>
+            <a href="#" class="text-secondary link-primary" aria-label="GitHub de Yeison">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="#" class="text-secondary link-primary" aria-label="LinkedIn de Yeison">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="#" class="text-secondary link-primary" aria-label="Correo electrónico de Yeison">
+              <i class="bi bi-envelope-at-fill"></i>
+            </a>
           </div>
           <p class="mb-0 small text-uppercase tracking-wider text-muted">
             &copy; 2026 Portafolio Profesional. Todos los derechos reservados.
